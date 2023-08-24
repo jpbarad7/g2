@@ -1,16 +1,5 @@
 /*
- * settings_default.h
- *
- * JPB Laser Machine Profile
- * Modified Full Spectrum Laser - 40W CO2
- * Arduino Due MCU with DJuke shield
- * 
- * I chose to modify the settings_default.h file rather than create my own
- * file to save the hassles of changing other configuration files.  The unedited
- * file is saved as settings_default_original.h
- * 
- * Project start date:  08/22/2023
- * 
+ * settings_default.h - default machine profile - Set for Shapeoko2
  * This file is part of the g2core project
  *
  * Copyright (c) 2012 - 2018 Alden S. Hart, Jr.
