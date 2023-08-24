@@ -389,7 +389,7 @@ void spindle_update_laser_override(float current_velocity) {
          // only update if the change is worth while (at lease 1%)
          spindle.override_factor = spindle_override;
          pwm_set_duty(PWM_1, _get_spindle_pwm(spindle, pwm));
-    }
+//      }
 }
 
 
