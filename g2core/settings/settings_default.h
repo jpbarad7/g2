@@ -207,7 +207,7 @@
 // *** Gcode Startup Defaults *** //
 
 #ifndef GCODE_DEFAULT_UNITS
-#define GCODE_DEFAULT_UNITS         INCHES             // {gun: MILLIMETERS or INCHES
+#define GCODE_DEFAULT_UNITS         MILLIMETERS             // {gun: MILLIMETERS or INCHES
 #endif
 
 #ifndef GCODE_DEFAULT_PLANE
@@ -242,7 +242,7 @@
 #define M1_TRAVEL_PER_REV           40                      // {1tr:  1.25 is a typical value for a screw axis
 #endif
 #ifndef M1_MICROSTEPS
-#define M1_MICROSTEPS               8                       // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
+#define M1_MICROSTEPS               1                       // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
 #endif
 #ifndef M1_STEPS_PER_UNIT
 #define M1_STEPS_PER_UNIT           0                       // {1su:  steps to issue per unit of length or degrees of rotation
@@ -274,7 +274,7 @@
 #define M2_TRAVEL_PER_REV           40.00
 #endif
 #ifndef M2_MICROSTEPS
-#define M2_MICROSTEPS               8
+#define M2_MICROSTEPS               1
 #endif
 #ifndef M2_STEPS_PER_UNIT
 #define M2_STEPS_PER_UNIT           0
