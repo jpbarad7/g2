@@ -239,13 +239,13 @@
 #define M1_STEP_ANGLE               1.8                     // {1sa: degrees per step
 #endif
 #ifndef M1_TRAVEL_PER_REV
-#define M1_TRAVEL_PER_REV           0                       // {1tr:  1.25 is a typical value for a screw axis
+#define M1_TRAVEL_PER_REV           40                      // {1tr:  1.25 is a typical value for a screw axis
 #endif
 #ifndef M1_MICROSTEPS
 #define M1_MICROSTEPS               32                      // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
 #endif
 #ifndef M1_STEPS_PER_UNIT
-#define M1_STEPS_PER_UNIT           228.57                  // {1su:  steps to issue per unit of length or degrees of rotation
+#define M1_STEPS_PER_UNIT           0                       // {1su:  steps to issue per unit of length or degrees of rotation
 #endif
 #ifndef M1_POLARITY
 #define M1_POLARITY                 0                       // {1po:  0=normal direction, 1=inverted direction
@@ -271,13 +271,13 @@
 #define M2_STEP_ANGLE               1.8
 #endif
 #ifndef M2_TRAVEL_PER_REV
-#define M2_TRAVEL_PER_REV           0
+#define M2_TRAVEL_PER_REV           40
 #endif
 #ifndef M2_MICROSTEPS
 #define M2_MICROSTEPS               32
 #endif
 #ifndef M2_STEPS_PER_UNIT
-#define M2_STEPS_PER_UNIT           228.57
+#define M2_STEPS_PER_UNIT           0
 #endif
 #ifndef M2_POLARITY
 #define M2_POLARITY                 0
