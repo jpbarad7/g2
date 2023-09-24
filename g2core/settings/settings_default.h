@@ -207,7 +207,7 @@
 // *** Gcode Startup Defaults *** //
 
 #ifndef GCODE_DEFAULT_UNITS
-#define GCODE_DEFAULT_UNITS         MILLIMETERS             // {gun: MILLIMETERS or INCHES
+#define GCODE_DEFAULT_UNITS         INCHES             // {gun: MILLIMETERS or INCHES
 #endif
 
 #ifndef GCODE_DEFAULT_PLANE
