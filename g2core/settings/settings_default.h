@@ -248,7 +248,7 @@
 #define M1_STEPS_PER_UNIT           0                       // {1su:  steps to issue per unit of length or degrees of rotation
 #endif
 #ifndef M1_POLARITY
-#define M1_POLARITY                 0                       // {1po:  0=normal direction, 1=inverted direction
+#define M1_POLARITY                 1                       // {1po:  0=normal direction, 1=inverted direction
 #endif
 #ifndef M1_ENABLE_POLARITY
 #define M1_ENABLE_POLARITY          IO_ACTIVE_LOW           // {1ep:  IO_ACTIVE_LOW or IO_ACTIVE_HIGH
@@ -280,7 +280,7 @@
 #define M2_STEPS_PER_UNIT           0
 #endif
 #ifndef M2_POLARITY
-#define M2_POLARITY                 0
+#define M2_POLARITY                 1
 #endif
 #ifndef M2_ENABLE_POLARITY
 #define M2_ENABLE_POLARITY          IO_ACTIVE_LOW
@@ -306,7 +306,7 @@
 #define M3_TRAVEL_PER_REV           40.0                    // 1.25 is a typical value for a screw axis
 #endif
 #ifndef M3_MICROSTEPS
-#define M3_MICROSTEPS               32
+#define M3_MICROSTEPS               8
 #endif
 #ifndef M3_STEPS_PER_UNIT
 #define M3_STEPS_PER_UNIT           0
