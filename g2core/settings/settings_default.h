@@ -242,7 +242,7 @@
 #define M1_TRAVEL_PER_REV           40                      // {1tr:  1.25 is a typical value for a screw axis
 #endif
 #ifndef M1_MICROSTEPS
-#define M1_MICROSTEPS                8                      // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
+#define M1_MICROSTEPS               32                      // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
 #endif
 #ifndef M1_STEPS_PER_UNIT
 #define M1_STEPS_PER_UNIT           0                       // {1su:  steps to issue per unit of length or degrees of rotation
@@ -274,7 +274,7 @@
 #define M2_TRAVEL_PER_REV           40
 #endif
 #ifndef M2_MICROSTEPS
-#define M2_MICROSTEPS               8
+#define M2_MICROSTEPS               32
 #endif
 #ifndef M2_STEPS_PER_UNIT
 #define M2_STEPS_PER_UNIT           0
@@ -306,7 +306,7 @@
 #define M3_TRAVEL_PER_REV           40.0                    // 1.25 is a typical value for a screw axis
 #endif
 #ifndef M3_MICROSTEPS
-#define M3_MICROSTEPS               8
+#define M3_MICROSTEPS               32
 #endif
 #ifndef M3_STEPS_PER_UNIT
 #define M3_STEPS_PER_UNIT           0
