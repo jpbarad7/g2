@@ -239,7 +239,7 @@
 #define M1_STEP_ANGLE               1.8                     // {1sa: degrees per step
 #endif
 #ifndef M1_TRAVEL_PER_REV
-#define M1_TRAVEL_PER_REV           2.28                      // {1tr:  1.25 is a typical value for a screw axis
+#define M1_TRAVEL_PER_REV           0.57                    // {1tr:  1.25 is a typical value for a screw axis
 #endif
 #ifndef M1_MICROSTEPS
 #define M1_MICROSTEPS               32                      // {1mi:  1,2,4,8,    16,32 (G2 ONLY)
@@ -271,7 +271,7 @@
 #define M2_STEP_ANGLE               1.8
 #endif
 #ifndef M2_TRAVEL_PER_REV
-#define M2_TRAVEL_PER_REV           2.28
+#define M2_TRAVEL_PER_REV           0.57
 #endif
 #ifndef M2_MICROSTEPS
 #define M2_MICROSTEPS               32
