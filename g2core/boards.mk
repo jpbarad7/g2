@@ -31,7 +31,7 @@ ifeq ("$(CONFIG)","ShapeokoDualY")
     ifeq ("$(BOARD)","NONE")
         BOARD=g2v9k
     endif
-    SETTINGS_FILE="settings_shapeoko2.h"
+    SETTINGS_FILE="settings_JPB_laser.h"
 endif
 
 ifeq ("$(CONFIG)","Othermill")
